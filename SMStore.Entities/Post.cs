@@ -2,7 +2,7 @@
 
 namespace SMStore.Entities
 {
-    public class Brand : IEntity
+    public class Post : IEntity
     {
         public int Id { get; set; }
         [Display(Name = "Adı"), Required(ErrorMessage = "{0} Alanı Boş Geçilemez!")]
@@ -10,16 +10,11 @@ namespace SMStore.Entities
         [Display(Name = "Açıklama")]
         public string? Description { get; set; }
 
-        [Display(Name = "Logo")]
+        [Display(Name = "Resim")]
         public string? Image { get; set; }
         [Display(Name = "Aktif?")]
         public bool IsActive { get; set; }
-
-        [Display(Name = "Ekleme Tarihi"), ScaffoldColumn(false)] 
+        [Display(Name = "Ekleme Tarihi"), ScaffoldColumn(false)]
         public DateTime? CreateDate { get; set; } = DateTime.Now;
-
-        public virtual ICollection<Product> Products { get; set; } // Brand ile product arasında bire cok ilişki kurduk
-
-
     }
 }

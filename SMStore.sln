@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMStore.WebUI", "SMStore.We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMStore.Entities", "SMStore.Entities\SMStore.Entities.csproj", "{EDC26983-5324-4654-8873-343D7962F2E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMStore.Data", "SMStore.Data\SMStore.Data.csproj", "{87CF7345-9538-4CD6-9048-1F1BB31ADC18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EDC26983-5324-4654-8873-343D7962F2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC26983-5324-4654-8873-343D7962F2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC26983-5324-4654-8873-343D7962F2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CF7345-9538-4CD6-9048-1F1BB31ADC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CF7345-9538-4CD6-9048-1F1BB31ADC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CF7345-9538-4CD6-9048-1F1BB31ADC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CF7345-9538-4CD6-9048-1F1BB31ADC18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,11 +16,18 @@ namespace SMStore.Entities
         public bool IsActive { get; set; }
         [Display(Name = "Üst Menu?")]
         public bool IsTopMenu { get; set; }
-        [Display(Name = "Üst Kategori?")]
+        [Display(Name = "Üst Kategori")]
         public int ParentId { get; set; }
+        [Display(Name = "Sıra No")]
+        public int OrderNo { get; set; }
 
         [Display(Name = "Ekleme Tarihi"), ScaffoldColumn(false)]
         public DateTime? CreateDate { get; set; } = DateTime.Now;
+        public virtual ICollection<Product> Products { get; set; } // 1 kategorinin birden den cok ürün alabilir.1 e cok ilişki kurduk
+        public Category()
+        {
+            Products = new List<Product>();
+        }
 
     }
 }
