@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMStore.WebUI", "SMStore.WebUI\SMStore.WebUI.csproj", "{5BD39D45-0471-4052-9753-F8BCC9EC3FD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMStore.WebUI", "SMStore.WebUI\SMStore.WebUI.csproj", "{5BD39D45-0471-4052-9753-F8BCC9EC3FD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMStore.Entities", "SMStore.Entities\SMStore.Entities.csproj", "{EDC26983-5324-4654-8873-343D7962F2E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMStore.Entities", "SMStore.Entities\SMStore.Entities.csproj", "{EDC26983-5324-4654-8873-343D7962F2E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMStore.Data", "SMStore.Data\SMStore.Data.csproj", "{87CF7345-9538-4CD6-9048-1F1BB31ADC18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMStore.Data", "SMStore.Data\SMStore.Data.csproj", "{87CF7345-9538-4CD6-9048-1F1BB31ADC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMStore.Service", "SMStore.Service\SMStore.Service.csproj", "{C1AC9242-087D-4BFC-8879-31AA62402B29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{87CF7345-9538-4CD6-9048-1F1BB31ADC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87CF7345-9538-4CD6-9048-1F1BB31ADC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87CF7345-9538-4CD6-9048-1F1BB31ADC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AC9242-087D-4BFC-8879-31AA62402B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AC9242-087D-4BFC-8879-31AA62402B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AC9242-087D-4BFC-8879-31AA62402B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AC9242-087D-4BFC-8879-31AA62402B29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
